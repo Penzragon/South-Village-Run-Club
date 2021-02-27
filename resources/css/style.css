@@ -80,7 +80,7 @@ header h1 {
 	margin: 0 1rem;
 }
 
-@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 480px) {
 	.images-container {
 		display: block;
 	}
