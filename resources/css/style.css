@@ -160,3 +160,9 @@ header h1 {
 .meet h2 {
 	font-size: 4rem;
 }
+
+/* Footer */
+footer {
+	padding: 1rem;
+	text-align: right;
+}
