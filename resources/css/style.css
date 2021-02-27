@@ -40,6 +40,12 @@ nav a {
 	color: inherit;
 }
 
+@media only screen and (max-width: 415px) {
+	nav li {
+		display: block;
+	}
+}
+
 /* Header */
 header {
 	height: 30rem;
@@ -56,6 +62,7 @@ header div {
 	width: 100%;
 	height: fit-content;
 	background-color: rgba(74, 57, 51, 0.8);
+	padding: 0.5rem;
 }
 
 header h1 {
@@ -155,10 +162,17 @@ header h1 {
 	width: 100%;
 	height: fit-content;
 	background-color: rgba(74, 57, 51, 0.8);
+	padding: 1rem;
 }
 
 .meet h2 {
 	font-size: 4rem;
+}
+
+@media only screen and (max-width: 480px) {
+	.meet h2 {
+		font-size: 2rem;
+	}
 }
 
 /* Footer */
