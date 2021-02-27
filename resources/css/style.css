@@ -113,7 +113,7 @@ header h1 {
 
 /* Gallery */
 .gallery {
-	margin-top: 1rem;
+	margin: 1rem 0;
 	width: 100%;
 	display: flex;
 	flex-flow: wrap;
@@ -136,4 +136,27 @@ header h1 {
 		width: 100%;
 		margin: 0;
 	}
+}
+
+/* Meet Us */
+.meet {
+	text-align: center;
+	height: 30rem;
+	background-image: url("../images/meetus.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.meet div {
+	width: 100%;
+	height: fit-content;
+	background-color: rgba(74, 57, 51, 0.8);
+}
+
+.meet h2 {
+	font-size: 4rem;
 }
